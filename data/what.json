@@ -1,0 +1,47 @@
+{
+  "category1": {
+    "rational": true,
+    "positive": true,
+    "options": [
+      "respeito",
+      "liberdade para dizer o que pensa",
+      "reconhecimento",
+      "folga para espairecer",
+      "cuidar da sua saúde",
+      "ajuda para lidar com a economia"
+    ]
+  },
+  "category2": {
+    "rational": true,
+    "positive": false,
+    "options": [
+      "ser investigada",
+      "responder por suas atitudes",
+      "dar satisfação à população",
+      "que a lei seja aplicada a ela",
+      "se desculpar pelas más decisões"
+    ]
+  },
+  "category3": {
+    "rational": false,
+    "positive": true,
+    "options": [
+      "pensão vitalícia",
+      "um prêmio Nobel",
+      "ter muitos priviégios",
+      "ter controle sobre a mídia",
+      "abafar casos de corrupção"
+    ]
+  },
+  "category4": {
+    "rational": false,
+    "positive": false,
+    "options": [
+      "ser torturada",
+      "ficar de boca calada",
+      "uma bomba de presente",
+      "ser presa",
+      "aturar a mídia sem questionar"
+    ]
+  }
+}

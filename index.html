@@ -1,0 +1,56 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Dilme merece</title>
+        <!-- <meta name="description" content="Chega de corrupção. Vamos pegar nossas panelas e nossos apitos e vamos fazer muito barulho! Fora Dilma, Lula, PT e petralhas! Vamos fazer a diferença!"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <meta property="og:image" content="http://www.batepanela.co/assets/img/logo-fb.png" /> -->
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="assets/js/angular.min.js"></script>
+        <script src="assets/js/underscore-min.js"></script>
+        <script src="dilmamerece.js"></script>
+    </head>
+    <body ng-app="dilmamereceModule" ng-controller="dilmamereceController">
+
+      <div class="container text-center">
+        <br/>
+        <br/>
+        <div class="jumbotron">
+          <p>
+            A Presidenta Dilma merece
+          </p>
+          <h1>{{ now }}</h1>
+          <br/>
+          <br/>
+          <button type="button" name="button" class="btn btn-lg btn-success" ng-show="buttonOrder == 0" ng-click="doesDeserve()">Ela merece!</button>
+          <button type="button" name="button" class="btn btn-lg btn-danger" ng-click="doesNotDeserve()">Ela NÃO merece!</button>
+          <button type="button" name="button" class="btn btn-lg btn-success" ng-show="buttonOrder == 1" ng-click="doesDeserve()">Ela merece!</button>
+        </div>
+      </div>
+
+      <!-- <div class="bottombar">
+        <div class="container text-center">
+          Copyright Bate Panelaço 2016 - <a href="https://www.facebook.com/batepanela.co/">Curta nossa página no Facebook!</a>
+        </div>
+      </div> -->
+
+      <!-- <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-75228620-1', 'auto');
+        ga('send', 'pageview');
+      </script> -->
+    </body>
+</html>
